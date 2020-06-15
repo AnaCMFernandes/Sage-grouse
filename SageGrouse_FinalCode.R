@@ -524,7 +524,7 @@ bio3_Isothermality <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-
 bio7_temp_annual_range <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=7)
 bio8_mean_temp_wettest_qtr <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=8)
 bio9_mean_temp_driest_qtr <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=9)
-bio12_annual_precip <- raster("bioclimfuture/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=12)
+bio12_annual_precip <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=12)
 bio13_precip_wettest_month <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=13)
 bio14_precip_driest_month <- raster("./share/spatial03/worldclim/cmip6/7_fut//2.5m/BCC-CSM2-MR/ssp245/wc2.1_2.5m_bioc_BCC-CSM2-MR_ssp245_2041-2060.tif", band=14)
 elevation <- raster("bioclimfuture/elevhillshade.tif")
